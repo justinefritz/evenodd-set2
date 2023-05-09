@@ -9,10 +9,10 @@ int main(){
     scanf("%d", &numb);
     if( numb%2 == 0){
     	strcpy(type, "even");
-    }
+    	}
     	else {
-    		strcpy(type, "odd");
-		}
+    	strcpy(type, "odd");
+	}
         if (numb >= 1 && numb <= 15){
             strcpy(letter, "B");
             }
@@ -34,9 +34,9 @@ int main(){
                                 main();
                                 }
                                 else {
-                                   	printf("Goodbye");
-                                    return 0;
-                                }
-    printf("%d is an %s number that belongs to letter %s\n", numb, type, letter); 
-	main();                        
+                                   printf("Goodbye");
+                                   return 0;
+				}
+printf("%d is an %s number that belongs to letter %s\n", numb, type, letter); 
+main();                        
 }
